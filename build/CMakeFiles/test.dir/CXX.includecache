@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zhenyu/badapple/test.cpp
+/home/zhenyu/ascii_art/test.cpp
 iostream
 -
 Eigen/Core
@@ -14,7 +14,7 @@ Eigen/Core
 Eigen/Geometry
 -
 opencv2/video/tracking.hpp
-/home/zhenyu/badapple/opencv2/video/tracking.hpp
+/home/zhenyu/ascii_art/opencv2/video/tracking.hpp
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp

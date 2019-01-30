@@ -1,3 +1,3 @@
-/home/zhenyu/badapple/build/CMakeFiles/edit_cache.dir
-/home/zhenyu/badapple/build/CMakeFiles/test.dir
-/home/zhenyu/badapple/build/CMakeFiles/rebuild_cache.dir
+/home/zhenyu/ascii_art/build/CMakeFiles/edit_cache.dir
+/home/zhenyu/ascii_art/build/CMakeFiles/test.dir
+/home/zhenyu/ascii_art/build/CMakeFiles/rebuild_cache.dir

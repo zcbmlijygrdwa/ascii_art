@@ -1,4 +1,4 @@
-# Install script for directory: /home/zhenyu/badapple
+# Install script for directory: /home/zhenyu/ascii_art
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zhenyu/badapple/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zhenyu/ascii_art/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
