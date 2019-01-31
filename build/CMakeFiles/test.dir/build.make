@@ -98,13 +98,6 @@ test: /usr/local/lib/libopencv_shape.so.3.1.0
 test: /usr/local/lib/libopencv_photo.so.3.1.0
 test: /usr/local/lib/libopencv_objdetect.so.3.1.0
 test: /usr/local/lib/libopencv_calib3d.so.3.1.0
-test: /usr/lib/x86_64-linux-gnu/libcholmod.so
-test: /usr/lib/x86_64-linux-gnu/libamd.so
-test: /usr/lib/x86_64-linux-gnu/libcolamd.so
-test: /usr/lib/x86_64-linux-gnu/libcamd.so
-test: /usr/lib/x86_64-linux-gnu/libccolamd.so
-test: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
-test: /usr/local/lib/libceres.a
 test: /usr/local/lib/libopencv_features2d.so.3.1.0
 test: /usr/local/lib/libopencv_ml.so.3.1.0
 test: /usr/local/lib/libopencv_highgui.so.3.1.0
@@ -114,27 +107,6 @@ test: /usr/local/lib/libopencv_flann.so.3.1.0
 test: /usr/local/lib/libopencv_video.so.3.1.0
 test: /usr/local/lib/libopencv_imgproc.so.3.1.0
 test: /usr/local/lib/libopencv_core.so.3.1.0
-test: /usr/local/lib/libglog.a
-test: /usr/lib/x86_64-linux-gnu/libgflags.so
-test: /usr/lib/x86_64-linux-gnu/libspqr.so
-test: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
-test: /usr/lib/x86_64-linux-gnu/libtbb.so
-test: /usr/lib/x86_64-linux-gnu/libcholmod.so
-test: /usr/lib/x86_64-linux-gnu/libamd.so
-test: /usr/lib/x86_64-linux-gnu/libcolamd.so
-test: /usr/lib/x86_64-linux-gnu/libcamd.so
-test: /usr/lib/x86_64-linux-gnu/libccolamd.so
-test: /usr/lib/liblapack.so
-test: /usr/lib/libf77blas.so
-test: /usr/lib/libatlas.so
-test: /usr/lib/x86_64-linux-gnu/librt.so
-test: /usr/lib/x86_64-linux-gnu/libcxsparse.so
-test: /usr/lib/liblapack.so
-test: /usr/lib/libf77blas.so
-test: /usr/lib/libatlas.so
-test: /usr/lib/x86_64-linux-gnu/librt.so
-test: /usr/lib/x86_64-linux-gnu/libcxsparse.so
-test: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhenyu/ascii_art/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
