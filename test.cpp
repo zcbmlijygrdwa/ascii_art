@@ -29,13 +29,13 @@ char** chars;
 int target_count;
 int finish_count;
 
-void add_progress()
+inline void add_progress()
 {
     finish_count++;
     cout<<"progress: "<<finish_count<<"/"<<target_count<<endl;
 }
 
-void set_chars(int* i, int* j, char* c)
+inline void set_chars(int* i, int* j, char* c)
 {
     m2.lock();
     chars[*i][*j] = *c;
@@ -44,7 +44,7 @@ void set_chars(int* i, int* j, char* c)
     m2.unlock();
 }
 
-Mat* get_copy_Img_text()
+inline Mat* get_copy_Img_text()
 {
     Mat* temp = NULL;
     m1.lock();
