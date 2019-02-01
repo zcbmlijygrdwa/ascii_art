@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 
     unique_ptr<Mat> img(new Mat());
 
-    if(argc!=4)
+    if(argc<4)
     {
 
         cout<<"Useage: ./test <size of font> <if show debug: 0 not show, 1 show> <path/to/image>"<<endl;
@@ -64,14 +64,14 @@ int main(int argc, char** argv)
                 double error = cv::sum(*img_diff)[0];
                 if(ifShowDebug!=0)
                 {
-                imshow("img",*img);
-                imshow("img_text",*img_text);
-                imshow("img_text_temp",*img_text_temp);
-                imshow("img_diff",*img_diff);
-                imshow("img_text_min",*img_text_min);
-                cout<<"error = "<<error<<endl;
-                waitKey(1);
-                cout<<"error = "<<error<<", error_min = "<<error_min<<endl;
+                    imshow("img",*img);
+                    imshow("img_text",*img_text);
+                    imshow("img_text_temp",*img_text_temp);
+                    imshow("img_diff",*img_diff);
+                    imshow("img_text_min",*img_text_min);
+                    cout<<"error = "<<error<<endl;
+                    waitKey(1);
+                    cout<<"error = "<<error<<", error_min = "<<error_min<<endl;
                 }
                 if(error_min>error)
                 {
@@ -88,6 +88,12 @@ int main(int argc, char** argv)
     imshow("img",*img);
     imshow("img_text",*img_text);
 
+
+    if(argc==5)
+    {
+        imwrite(argv[4],*img_text);
+    }
+    
     waitKey(0);
 
     return 0;
